@@ -1,4 +1,4 @@
-name: Build and Deploy to GKE (added permissions)
+name: Build and Deploy to GKE (changed artifacts location to us)
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
-  GAR_LOCATION: ${{ secrets.GCP_REGION }}
+  GAR_LOCATION: us
   GKE_CLUSTER: cluster-tpg
   GKE_ZONE: us-central1-a
   DEPLOYMENT_NAME: tpg-gke-test
