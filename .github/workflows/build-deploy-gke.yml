@@ -1,4 +1,4 @@
-name: Build and Deploy to GKE (added repo)
+name: Build and Deploy to GKE (added permissions)
 
 on:
   push:
