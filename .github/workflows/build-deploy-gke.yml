@@ -1,4 +1,4 @@
-name: Build and Deploy to GKE (showing in class)
+name: Build and Deploy to GKE (showing in class 2)
 
 on:
   push:
