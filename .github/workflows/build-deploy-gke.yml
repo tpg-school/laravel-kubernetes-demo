@@ -1,4 +1,4 @@
-name: Build and Deploy to GKE (added latest tag)
+name: Build and Deploy to GKE (showing in class)
 
 on:
   push:
